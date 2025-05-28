@@ -29,8 +29,10 @@ API RESTful para gestión de usuarios, monedas y criptomonedas, con trazabilidad
     ├── models/
     ├── routes/
     └── services/
-```
+
 7 directories, 20 files
+```
+
 ---
 
 ## ✨ Cómo ejecutar el servidor
@@ -150,10 +152,10 @@ El microservicio `service.cron.js` copia registros de las tablas principales a s
 
 ### 🕒 Ejecución automática
 
-Actualmente configurado para ejecutarse **cada 15 segundos**:
+Actualmente configurado para ejecutarse **cada 1 minuto**:
 
 ```js
-cron.schedule('*/15 * * * * *', async () => {
+cron.schedule('* 1 * * * *', async () => {
   ...
 });
 ```
