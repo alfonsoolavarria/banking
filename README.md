@@ -29,7 +29,6 @@ API RESTful para gestión de usuarios, monedas y criptomonedas, con trazabilidad
     ├── models/
     ├── routes/
     └── services/
-
 7 directories, 20 files
 ```
 
