@@ -15,22 +15,9 @@ npx nodemon source/index.js
 
 API RESTful para gestión de usuarios, monedas y criptomonedas, con trazabilidad histórica y autenticación por JWT.
 
-## 📁 Estructura del Proyecto
 
-```
-├── README.md
-├── package-lock.json
-├── package.json
-└── source
-    ├── app.js
-    ├── index.js
-    ├── controllers/
-    ├── middlewares/
-    ├── models/
-    ├── routes/
-    └── services/
-7 directories, 20 files
-```
+<pre> ## 📁 Estructura del Proyecto ``` ├── README.md ├── package-lock.json ├── package.json └── source ├── app.js ├── index.js ├── controllers/ ├── middlewares/ ├── models/ ├── routes/ └── services/ ``` 
+</pre>
 
 ---
 
